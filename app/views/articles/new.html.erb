@@ -1,0 +1,15 @@
+<%= form_for @articles do |f| %>
+          <div style="margin: 8px 0">
+            <%= f.text_area :text, placeholder: '日記を書いてね！', style: 'width: 100%;height: 300px;' %>
+          </div>
+          <div class="row">
+            <div class="col10 push1">
+              <%= button_tag type: "submit", class: "btn btn--block" do %>
+              投稿する<i class="icon-arrow-right"></i>
+              <% end %>
+            </div>
+          </div>
+          <% end %>
+        </article>
+      </div>
+      <div id="yjSub">
